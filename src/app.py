@@ -8,7 +8,7 @@ def details():
     return jsonify({
         'time': datetime.date.today().strftime("%Y-%m-%d"),
         'hostname': socket.gethostname(),
-        'message': 'You are doing a great job! Using GitOPs'    
+        'message': 'You are doing a great job! Using GitOPs and ArgoCD'    
         })
 
 
